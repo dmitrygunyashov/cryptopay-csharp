@@ -1,4 +1,4 @@
-# Cryptopay
+# Cryptopay API C&#35; wrapper
 Easily accept Bitcoin payment with Cryptopay Payment API
 
 Before you will be able to start using this gem, you will need to obtain an API key in Account - Merchant Tools - Settings.
