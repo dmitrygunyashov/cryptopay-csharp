@@ -72,3 +72,6 @@ catch (Exception e)
 }
 
 ```
+
+#Dependencies
+Current realisation depends on [Json.NET](http://james.newtonking.com/json) project 
