@@ -5,9 +5,10 @@ using System.Text;
 
 namespace CryptopayApi
 {
-    public enum Currency
+    enum Currency
     {
         EUR,
-        GBP
+        GBP,
+        BTC
     }
 }
