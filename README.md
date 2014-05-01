@@ -65,7 +65,7 @@ invoice.CallbackUrl
 invoice.SuccessRedirectUrl
 ```
 
-CreatedAt and ValidTill fields allow user to get time as ```csharp DateTime ```
+CreatedAt and ValidTill fields allow user to get time as ```DateTime ```
 
 To get information about invoice:
 ```csharp
@@ -82,7 +82,7 @@ To get all invoices:
 InvoiceCollection invoiceCollection = cryptopay.ListInvoices(<page>, <per_page>, <DateTime from>, <DateTime to>);
 ```
 
-All parameters are optional. To use only <from> and <to> parameters set <page> and <per_page> to -1.
+All parameters are optional. To use only "from" "to" parameters set "page" and "per_page" to -1.
 invoiceCollection object fields can be referenced by the following way
 ```csharp
 invoiceCollection.Total
